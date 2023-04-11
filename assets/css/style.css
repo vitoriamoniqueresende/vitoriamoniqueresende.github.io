@@ -158,3 +158,71 @@ section .banda3 .info button {
     border: 0px;
     font-weight: bold;
 }
+
+#form-div {
+    margin-top:9em;
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+#form-div form{
+    border-radius: 10px;
+   grid-template-columns: 1rf;
+   justify-items:start;
+    background-color: beige;
+    display:grid;
+    padding:2rem;
+    position:relative;
+    row-gap: 2rem;
+}
+
+#form-div div form{
+    height:10em;
+}
+
+
+output{
+    width: 100%;
+    min-height: 150px;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 15px;
+    position: relative;
+    border-radius: 5px;
+  }
+  
+  output .image{
+    height: 150px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+    overflow: hidden;
+    position: relative;
+  }
+  
+  output .image img{
+    height: 100%;
+    width: 100%;
+  }
+  
+  output .image span {
+    position: absolute;
+    top: -4px;
+    right: 4px;
+    cursor: pointer;
+    font-size: 22px;
+    color: white;
+  }
+  
+  output .image span:hover {
+    opacity: 0.8;
+  }
+  
+  output .span--hidden{
+    visibility: hidden;
+  }
+
+
+
