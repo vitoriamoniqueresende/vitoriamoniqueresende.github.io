@@ -1,6 +1,22 @@
 
 
 
+
+
+var b = false
+function display_menu(){
+  let content = document.querySelector('.menu-navegacao')
+  if(!b){
+  content.style.display = 'block'
+  b = true
+  }else{
+    content.style.display = 'none'
+    b = false
+  }
+
+}
+  
+ 
 function clickAction(){
     const image = document.querySelector("#image-input")
     const description = document.querySelector("#txtArea")

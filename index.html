@@ -7,18 +7,33 @@
     <title>Projeto Bandas Independentes</title>
     <!-- link realiza um link com o arquivo css -->
     <link rel="stylesheet" href="./assets/css/style.css">
+
     
 </head>
 
 <body>
-    <header>
-        <h1> Independent Music</h1>
-        <span></span>
-        <a href="#" class="botao">MAIS POPULARES </a>
-        <a href="#" class="botao">RECENTES </a>
-        <a href="cadastro.html" class="botao">CADASTRO </a>
-    </header>
+    
     <section>
+        
+
+            
+        <header>
+            <button onclick="display_menu()"  id="burguer-button">Menu</button>
+
+            <h1> Independent Music</h1>
+            <span></span>
+            <!-- Adicione o menu de navegação dentro da tag header -->
+            <nav class="menu-navegacao">
+                <ul>
+                    <li><a href="#" class="botao">MAIS POPULARES</a></li>
+                    <li><a href="#" class="botao">RECENTES</a></li>
+                    <li><a href="cadastro.html" class="botao">CADASTRO</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section>
+            <!-- Resto do conteúdo da página -->
+
         
         <div class="banda">
             <div class="img"></div>
@@ -67,6 +82,10 @@
 
     </section>
    
+</section>
+</body>
+
+<script src="assets/scripts/script.js"></script>
 
 </html>
 
